@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CyberSecurity | History | CIT 212</title>
+    <style>
+        article {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            width: 60%;
+            height: auto;
+            margin-bottom: 25px;
+            /* border: 1px solid red; */
+        }
+
+        .infoBox {
+            top: 30px;
+            flex: 0 1 45%;
+            height: auto;
+            margin: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            background-color: #102b36;
+            border: 4px solid #25D9B5;
+            border-radius: 10px;
+            box-shadow: 6px 6px 10px #000;
+            color: whitesmoke;
+        }
+
+        .infoBox a {
+            text-decoration: none;
+            color: #409987;
+        }
+
+        .infoBox a:hover {
+            color: #D97425;
+        }
+
+        aside {
+            position: absolute;
+            padding-top: 70px;
+            margin: 25px;
+            top: 0px;
+            right: 0px;
+            width: 35%;
+            height: auto;
+        }
+
+        @media screen and (max-width: 1400px) {
+            .infoBox {
+                flex: 0 1 43%;
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+            h2 {
+                text-align: center;
+                padding: 0px;
+            }
+
+            h3 {
+                text-align: center;
+            }
+            article {
+                width: 94%;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            article h3 {
+                text-align: left;
+            }
+
+            .infoBox {
+                flex: 1 1 98%;
+                width: 96%;
+            }
+
+            aside {
+                position: relative;
+                width: 95%;
+                padding-top: 0px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>CyberSafe Insights</h1>
+        <h3>History</h3>
+        <div class="csilogo">
+            <img src="./images/logo.png" alt="CyberSafe Insights Logo">
+            <div class="paralelogram"></div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a> | </li>
+            <li><a href="./history.html">History</a> | </li>
+            <li><a href="./threats.html">Threats</a></li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <h2 style="padding-left: 25px; margin-bottom: 10px;">What is the history of Cybersecurity ?</h2>
+        <article>
+            <div class="infoBox">
+                <h3>1970s: The Beginnings</h3><br>
+                <p>Cybersecurity began in the 1970s with the creation of <a href="https://www.britannica.com/topic/ARPANET" target="_blank">ARPANET</a>, 
+                    the precursor to the internet. Bob Thomas, a researcher, developed a program called Creeper
+                    that could move across ARPANET’s network, leaving a message behind. Ray Tomlinson, who invented email, 
+                    created Reaper to chase and delete Creeper, marking the first instance of antivirus software.</p>
+            </div>
+            <div class="infoBox">
+                <h3>1980s: Commercial Antivirus and Growing Threats</h3><br>
+                <p> 1980s saw the birth of <a href="https://us.norton.com/blog/malware/what-is-antivirus" target="_blank">commercial antivirus software</a>. 
+                    Notable early products included VirusScan by John McAfee and NOD antivirus. This decade also introduced 
+                    terms like “Trojan horse” and “computer virus” as cyber threats became more frequent.</p>
+            </div>
+            <div class="infoBox">
+                <h3>1990s: The Internet Era</h3><br>
+                <p>With the internet becoming publicly accessible, cybersecurity threats increased exponentially. The 1990s 
+                    saw the rise of <a href="https://www.fortinet.com/resources/cyberglossary/firewall" target="_blank">firewalls</a> and more 
+                    advanced antivirus programs to protect against the growing number of viruses and malware.</p>
+            </div>
+            <div class="infoBox">
+                <h3>2000s: Diversification of Threats</h3><br>
+                <p>The early 2000s brought more sophisticated <a href="https://www.ibm.com/topics/cyber-attack" target="_blank">cyberattacks</a>, 
+                    often funded by organized crime. Governments began to impose stricter penalties for cybercrimes. This 
+                    era also saw the emergence of ransomware and other complex threats</p>
+            </div>
+            <div class="infoBox">
+                <h3>2010s and Beyond: Advanced Threats and Solutions</h3><br>
+                <p>In recent years, cybersecurity has continued to evolve rapidly. The industry now focuses on combating advanced 
+                    persistent threats, <a href="https://www.malwarebytes.com/ransomware" target="_blank">ransomware</a>, and securing 
+                    the Internet of Things (IoT). The global cybersecurity market is projected to grow significantly, reflecting the 
+                    increasing importance of protecting digital information</p>
+            </div>
+        </article>
+        <aside>
+            <h3>Why is the History of CyberSecurity Important?</h3><br>
+            <p>Understanding the history of cybersecurity is crucial for several reasons. It reveals how cyber threats have evolved, helping 
+                us develop better defenses against current and future risks. By learning from past mistakes, we can avoid repeating them and 
+                improve our security posture. This historical insight has also shaped today’s best practices and standards.</p><br>
+            <p>Technological advancements in cybersecurity, driven by the need to counteract emerging threats, highlight the importance of 
+                continuous innovation. Significant cybersecurity events have led to new policies and regulations, emphasizing the need for 
+                compliance. Additionally, the growing cultural awareness of cybersecurity fosters a proactive approach, ensuring that both 
+                individuals and organizations are better prepared to handle potential threats. In essence, the history of cybersecurity provides 
+                valuable lessons that inform current practices and strategies, helping us build a more secure digital future.</p>
+        </aside>
+    </div>
+    <footer>
+        <p>Created by <a href="https://github.com/mdejanon" target="_blank">Max De Janon</a></p>
+    </footer>
+</body>
+</html>

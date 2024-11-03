@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CyberSecurity | Threats | CIT 212</title>
+    <style>
+        article {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            width: 97%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 25px;
+            /* border: 1px solid red; */
+        }
+
+        .infoBox {
+            top: 30px;
+            flex: 0 1 45%;
+            height: auto;
+            margin: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            background-color: #593E3C;
+            border: 4px solid #D93525;
+            border-radius: 10px;
+            box-shadow: 6px 6px 10px #000;
+            color: whitesmoke;
+        }
+
+        .infoBox ul {
+            padding-left: 20px;
+        }
+
+        article :hover {
+            flex: 0 0 46%;
+        }
+
+        @media screen and (max-width: 800px) {
+            h2 {
+                text-align: center;
+                padding: 0px;
+            }
+            article {
+                width: 94%;
+                flex-direction: column;
+                flex-wrap: nowrap;
+            }
+
+            .infoBox {
+                flex: 1 1 98%;
+                width: 96%;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>CyberSafe Insights</h1>
+        <h3>Threats</h3>
+        <div class="csilogo">
+            <img src="./images/logo.png" alt="CyberSafe Insights Logo">
+            <div class="paralelogram"></div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a> | </li>
+            <li><a href="./history.html">History</a> | </li>
+            <li><a href="./threats.html">Threats</a></li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <h2 style="padding-left: 25px;">What are six Cybersecurity threats?</h2><br>
+        <p style="padding-left: 25px; padding-right: 25px;margin-bottom: 10px">Here are six common cybersecurity threats and their explanations:</p>
+        <article>
+            <div class="infoBox">
+                <h3>Phishing</h3><br>
+                <p>Phishing involves cybercriminals sending deceptive emails or messages that appear to be from legitimate sources, 
+                    such as banks or trusted companies. The goal is to trick recipients into providing sensitive information, like 
+                    passwords or credit card numbers. Phishing attacks can lead to identity theft and financial loss.</p><br>
+                <p><b>Prevention:</b></p>
+                <ul>
+                    <li><b>Be cautious: </b>Always verify the sender’s email address and look for signs of phishing, such as spelling errors or suspicious links.</li>
+                    <li><b>Use email filters: </b>Implement spam filters to detect and block phishing emails.</li>
+                    <li><b>Educate users: </b>Regularly train employees and individuals on how to recognize and report phishing attempts.</li>
+                </ul>    
+            </div>
+            <div class="infoBox">
+                <h3>Ransomware</h3><br>
+                <p>Ransomware is a type of malware that encrypts a victim’s files, rendering them inaccessible. The attacker then demands 
+                    a ransom payment in exchange for the decryption key. Ransomware attacks can cripple businesses and individuals by locking 
+                    them out of critical data and systems until the ransom is paid.</p><br>
+                <p><b>Prevention:</b></p>
+                <ul>
+                    <li><b>Regular backups: </b>Frequently back up data and store it offline or in a secure cloud service.</li>
+                    <li><b>Update software: </b>Keep all systems and software up to date with the latest security patches.</li>
+                    <li><b>Use antivirus software: </b>Deploy reputable antivirus and anti-malware solutions to detect and block ransomware.</li>
+                </ul>
+            </div>
+            <div class="infoBox">
+                <h3>Malware</h3><br>
+                <p>Malware, short for malicious software, encompasses various types of harmful software, including viruses, worms, and trojans. 
+                    Malware can damage or disrupt systems, steal sensitive information, and give attackers unauthorized access to networks. 
+                    It often spreads through infected email attachments, downloads, or compromised websites.</p><br>
+                <p><b>Prevention:</b></p>
+                <ul>
+                    <li><b>Install security software: </b>Use comprehensive antivirus and anti-malware programs.</li>
+                    <li><b>Avoid suspicious downloads: </b>Only download software from trusted sources and avoid clicking on unknown links.</li>
+                    <li><b>Enable firewalls: </b>Use firewalls to block unauthorized access to your network.</li>
+                </ul>
+            </div>
+            <div class="infoBox">
+                <h3>Denial of Service (DoS) Attacks</h3><br>
+                <p>A DoS attack aims to make a network or website unavailable by overwhelming it with a flood of traffic. This can be achieved 
+                    through various methods, such as sending an excessive number of requests to the server. DoS attacks can disrupt online services, 
+                    causing downtime and financial losses for businesses.</p><br>
+                <p><b>Prevention:</b></p>
+                <ul>
+                    <li><b>Use network security tools: </b>Implement intrusion detection and prevention systems (IDPS) to monitor and mitigate DoS attacks.</li>
+                    <li><b>Distribute resources: </b>Use content delivery networks (CDNs) and load balancers to distribute traffic and reduce the impact of attacks.</li>
+                    <li><b>Regularly update systems: </b>Ensure all network devices and software are up to date with security patches.</li>
+                </ul>
+            </div>
+            <div class="infoBox">
+                <h3>Man-in-the-Middle (MitM) Attacks</h3><br>
+                <p>In a MitM attack, an attacker intercepts and potentially alters the communication between two parties without their knowledge. 
+                    This can occur over unsecured networks, such as public Wi-Fi. The attacker can eavesdrop on the conversation, steal sensitive 
+                    information, or inject malicious content into the communication.</p><br>
+                <p><b>Prevention:</b></p>
+                <ul>
+                    <li><b>Use encryption: </b>Ensure all communications are encrypted using protocols like HTTPS, SSL/TLS, and VPNs.</li>
+                    <li><b>Avoid public Wi-Fi: </b>Refrain from accessing sensitive information over unsecured public Wi-Fi networks.</li>
+                    <li><b>Implement strong authentication: </b>Use multi-factor authentication (MFA) to add an extra layer of security.</li>
+                </ul>
+                </div>
+            <div class="infoBox">
+                <h3>SQL Injection</h3><br>
+                <p>SQL injection involves inserting malicious SQL code into a query to manipulate a database. This can allow attackers to access, 
+                    modify, or delete data in a database, potentially compromising sensitive information and disrupting database-driven applications.</p><br>
+                <p><b>Prevention:</b></p>
+                <ul>
+                    <li><b>Use parameterized queries: </b>Ensure that SQL queries are parameterized to prevent injection attacks.</li>
+                    <li><b>Validate input: </b>Implement input validation to ensure that only expected data is processed.</li>
+                    <li><b>Regularly update and patch: </b>Keep database management systems and applications up to date with the latest security patches.</li>
+                </ul>
+            </div>
+        </article>
+        <p style="padding-left: 25px; padding-right: 25px;margin-top: 10px;">These threats highlight the importance of implementing robust cybersecurity measures to protect against potential attacks and 
+            ensure the safety of digital information and systems.</p>
+    </div>
+    <footer>
+        <p>Created by <a href="https://github.com/mdejanon" target="_blank">Max De Janon</a></p>
+    </footer>
+</body>
+</html>
