@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #101010;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    padding-left: 25px;
+    background-color: #080808;
+    border-bottom: 4px solid #25D9B5;
+    color: whitesmoke;
+    z-index: 99;
+}
+
+header h1 {
+    margin-top: 20px;
+}
+
+header h3 {
+    margin-bottom: auto;
+}
+
+.csilogo {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 200px;
+    height: 100px;
+    /* background-color: red; */
+}
+
+.csilogo img {
+    position: absolute;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    z-index: 99;
+}
+
+.paralelogram {
+    position: absolute;
+    left: 10px;
+    width: 100%;
+    height: 100px;
+    transform: skew(-33deg);
+    background-color: whitesmoke;
+}
+
+nav {
+    position: fixed;
+    top: 104px;
+    width: 100%;
+    height: 28px;
+    padding-left: 25px;
+    padding-top: 4px;
+    background-color: #080808;
+    border-bottom: 4px solid #25D9B5;
+    box-shadow: 0px 4px 10px #000;
+    color: whitesmoke;
+    font-size: large;
+    text-decoration: none;
+    z-index: 99;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav ul li a:hover {
+    color: #D97425;
+}
+
+.wrapper {
+    position: relative;
+    top: 140px;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    /* border: 1px solid red; */
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 28px;
+    margin-top: 200px;
+    padding-left: 25px;
+    padding-top: 6px;
+    background-color: #080808;
+    border-top: 4px solid #25D9B5;
+    color: whitesmoke;
+    font-size: small;
+}
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: #D97425;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    nav {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .csilogo {
+        visibility: hidden;
+    }
+
+    .csilogo img {
+        visibility: hidden;
+    }
+
+    .paralelogram {
+        visibility: hidden;
+    }
+
+    footer {
+        position: relative;
+        top: 0px;
+        margin-top: 200px;
+        padding-left: 0px;
+        text-align: center;
+    }
+}
